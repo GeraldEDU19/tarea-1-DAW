@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @font-face {
   font-family: 'Times New Roman';
   src: local('Times New Roman'), serif;
@@ -9,8 +10,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: 'Times New Roman', serif;
-    background-color: #e2edb7;
+    font-family: 'Roboto', serif;
+    background-color: #e7e7e7;
   }
   
   main {
@@ -38,6 +39,7 @@ body {
   header{
     background-color: #6db6a6;
     height: 250px;
+    margin-bottom: 10%;
   }
   .containerHeader{
     width: 100%;
@@ -67,10 +69,11 @@ body {
 }
 
 .divPersonal img{
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   object-fit: cover;
   border-radius: 35%;
+  
 }
 .informacionPersonal{
   padding: 2%;
@@ -89,4 +92,84 @@ body {
 }
 .linksImg{
   text-align: center;
+}
+
+main{
+  text-align: center;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+thead th {
+  background-color: #161731;
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  color: white;
+}
+
+tbody td {
+  padding: 8px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+}
+
+tfoot td {
+  background-color: #ffffff;
+  padding: 8px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li:before {
+  content: "•";
+  margin-right: 8px;
+}
+.conocimientos{
+  display: flex;
+  text-align: left;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.expCon{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: fit-content;
+}
+.experiencia{
+  text-align: left;
+  margin-right: 80px;
+}
+
+.hobbies img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 25px;
+  border: 1px solid black;
+}
+
+.tableHobbies{
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid black;
+  border-radius: 25px;
+  overflow: hidden;
 }
