@@ -39,7 +39,11 @@ body {
   header{
     background-color: #6db6a6;
     height: 250px;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
+  }
+
+  header img{
+    object-fit: cover;
   }
   .containerHeader{
     width: 100%;
@@ -57,7 +61,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 60%;
+  width: fit-content;
   height: fit-content;
   padding: 2%;
   background-color: #161731;
@@ -68,6 +72,24 @@ body {
   color: white;
 }
 
+.tecnologias{
+  display: flex;
+  justify-content: space-around
+}
+
+.tecnologias div{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #6db6a6;
+  min-width: 25%;
+  max-width: fit-content;
+  text-align: center;
+  border-radius: 25px;
+  padding: 1%;
+}
+.tecnologias div h3{
+  margin-top: 10%;
+}
 .divPersonal img{
   height: 200px;
   width: 200px;
